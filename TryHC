@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdio.h>
+
+int main(){
+char x[]="bcad";
+for(int i=0;i<strlen(x);i++){
+printf("%c",x[i]);
+}
+printf("\n%s",x);
+return 0;
+}
